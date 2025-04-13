@@ -15,8 +15,6 @@ A simple career guidance website built with HTML, CSS, and JavaScript — made t
 Click here to view the live site:  
 👉 [https://Evilisj066.github.io/career-guide-website](https://Evilisj066.github.io/career-guide-website)
 
-_(Replace `yourusername` with your GitHub username)_
-
 ## 📁 Files in this Project
 
 - `index.html` — Main structure of the website
@@ -32,7 +30,7 @@ _(Replace `yourusername` with your GitHub username)_
 
 ## 🙌 Credits
 
-Made with 💙 by [Your Name]  
+Made with 💙 by [Qpal Group-IT-1b]  
 Project created for learning and helping students choose the right path.
 
 ---
