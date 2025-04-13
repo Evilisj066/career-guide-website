@@ -29,24 +29,46 @@
     <section id="quiz">
       <h2>Career Suggestion Quiz</h2>
       <form id="careerQuiz">
-        <label>Do you enjoy working with computers?</label><br/>
-        <input type="radio" name="q1" value="tech"> Yes
-        <input type="radio" name="q1" value="non-tech"> No<br/><br/>
+        <fieldset>
+          <legend>Do you enjoy working with computers?</legend>
+          <div>
+            <input type="radio" id="q1-yes" name="q1" value="tech" />
+            <label for="q1-yes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="q1-no" name="q1" value="non-tech" />
+            <label for="q1-no">No</label>
+          </div>
+        </fieldset>
 
-        <label>Do you like helping people directly?</label><br/>
-        <input type="radio" name="q2" value="health"> Yes
-        <input type="radio" name="q2" value="other"> No<br/><br/>
+        <fieldset>
+          <legend>Do you like helping people directly?</legend>
+          <div>
+            <input type="radio" id="q2-yes" name="q2" value="health" />
+            <label for="q2-yes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="q2-no" name="q2" value="other" />
+            <label for="q2-no">No</label>
+          </div>
+        </fieldset>
 
-        <label>Would you prefer a creative job or a technical one?</label><br/>
-        <input type="radio" name="q3" value="creative"> Creative
-        <input type="radio" name="q3" value="technical"> Technical<br/><br/>
+        <fieldset>
+          <legend>Would you prefer a creative job or a technical one?</legend>
+          <div>
+            <input type="radio" id="q3-creative" name="q3" value="creative" />
+            <label for="q3-creative">Creative</label>
+          </div>
+          <div>
+            <input type="radio" id="q3-technical" name="q3" value="technical" />
+            <label for="q3-technical">Technical</label>
+          </div>
+        </fieldset>
 
         <button type="submit">Get Result</button>
       </form>
-      <div id="result"></div>
+      <div id="result" aria-live="polite"></div>
     </section>
-
-
   </main>
 
   <footer>
