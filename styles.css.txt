@@ -58,3 +58,28 @@ nav a {
 #resources a:hover {
   text-decoration: underline;
 }
+
+/* 🔧 Mobile Responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .career-list {
+    grid-template-columns: 1fr; /* Stack career cards vertically */
+  }
+
+  .career-card {
+    padding: 15px;
+  }
+
+  .cta-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
