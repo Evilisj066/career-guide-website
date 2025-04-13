@@ -25,8 +25,7 @@
     </section>
 
 <section id="quiz">
-  <h2>What Career Fits You?</h2>
-  <p>Answer this quick quiz to get suggestions!</p>
+  <h2>Career Suggestion Quiz</h2>
   <form id="careerQuiz">
     <label>Do you enjoy working with computers?</label><br/>
     <input type="radio" name="q1" value="tech"> Yes
@@ -36,14 +35,11 @@
     <input type="radio" name="q2" value="health"> Yes
     <input type="radio" name="q2" value="other"> No<br/><br/>
 
+    <label>Would you prefer a creative job or a technical one?</label><br/>
+    <input type="radio" name="q3" value="creative"> Creative
+    <input type="radio" name="q3" value="technical"> Technical<br/><br/>
+
     <button type="submit">Get Result</button>
   </form>
-
-  <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+  <div id="result"></div>
 </section>
-
-  </main>
-
-  <script src="script.js"></script>
-</body>
-</html>
