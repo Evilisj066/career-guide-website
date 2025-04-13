@@ -18,28 +18,41 @@
   </header>
 
   <main>
+    <!-- Hero Section -->
     <section id="hero">
       <h2>Find the path that fits you best.</h2>
       <p>Discover careers that match your passions and goals.</p>
       <a href="#quiz" class="cta-button">Start the Quiz</a>
     </section>
 
-<section id="quiz">
-  <h2>Career Suggestion Quiz</h2>
-  <form id="careerQuiz">
-    <label>Do you enjoy working with computers?</label><br/>
-    <input type="radio" name="q1" value="tech"> Yes
-    <input type="radio" name="q1" value="non-tech"> No<br/><br/>
+    <!-- Quiz Section -->
+    <section id="quiz">
+      <h2>Career Suggestion Quiz</h2>
+      <form id="careerQuiz">
+        <label>Do you enjoy working with computers?</label><br/>
+        <input type="radio" name="q1" value="tech"> Yes
+        <input type="radio" name="q1" value="non-tech"> No<br/><br/>
 
-    <label>Do you like helping people directly?</label><br/>
-    <input type="radio" name="q2" value="health"> Yes
-    <input type="radio" name="q2" value="other"> No<br/><br/>
+        <label>Do you like helping people directly?</label><br/>
+        <input type="radio" name="q2" value="health"> Yes
+        <input type="radio" name="q2" value="other"> No<br/><br/>
 
-    <label>Would you prefer a creative job or a technical one?</label><br/>
-    <input type="radio" name="q3" value="creative"> Creative
-    <input type="radio" name="q3" value="technical"> Technical<br/><br/>
+        <label>Would you prefer a creative job or a technical one?</label><br/>
+        <input type="radio" name="q3" value="creative"> Creative
+        <input type="radio" name="q3" value="technical"> Technical<br/><br/>
 
-    <button type="submit">Get Result</button>
-  </form>
-  <div id="result"></div>
-</section>
+        <button type="submit">Get Result</button>
+      </form>
+      <div id="result"></div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Career Compass. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
